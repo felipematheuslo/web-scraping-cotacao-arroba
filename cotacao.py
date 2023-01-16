@@ -93,10 +93,12 @@ else:
     if not date_today == date_last_saved:
         vaca.to_csv('cotacao_vaca_gorda.csv', encoding='utf-8', index=False, mode='a', header=False)
 
+"""
 vaca_cg = pd.read_csv('cotacao_vaca_gorda.csv')
 for row in vaca_cg.index:
     if not vaca_cg["região"].loc[row] == "MS C. Grande":
         vaca_cg = vaca_cg.drop([row])
 vaca_cg = vaca_cg.reset_index(drop=True)
 vaca_cg = vaca_cg.drop(vaca_cg.columns[[1,3]], axis=1)
-#vaca_cg.plot('data', 'à vista')
+vaca_cg.plot('data', 'à vista')
+"""
