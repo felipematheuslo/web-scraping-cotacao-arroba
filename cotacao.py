@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on May 3, 2022
-@author: Felipe Matheus
+@author: Felipe Laurindo
 """
 import os
 import time
